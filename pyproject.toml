@@ -3,6 +3,13 @@ name = "sam45"
 version = "1.0.0rc1"
 description = "NRO/SAM45 log data reader"
 readme = "README.md"
+keywords = [
+    "astronomy",
+    "nro",
+    "python",
+    "radio-astronomy",
+    "sam45",
+]
 requires-python = ">=3.10,<3.15"
 dependencies = [
     "numpy>=2,<3",
@@ -20,19 +27,25 @@ classifiers = [
 
 [[project.authors]]
 name = "Akio Taniguchi"
-email = "taniguchi.akio@gmail.com"
+email = "a-taniguchi@mail.kitami-it.ac.jp"
 
 [project.license]
 file = "LICENSE"
 
 [project.urls]
+homepage = "https://astropenguin.github.io/sam45"
 repository = "https://github.com/astropenguin/sam45"
 
 [dependency-groups]
 dev = [
     "black>=25,<26",
     "ipython>=8,<10",
+    "myst-parser>=3,<5",
+    "pandas-stubs>=2,<3",
+    "pydata-sphinx-theme>=0.16,<1.0",
     "pyright>=1,<2",
+    "pytest>=9,<10",
+    "sphinx>=8,<9",
 ]
 
 [build-system]
