@@ -21,7 +21,7 @@ def ctl(log: PathLike[str] | str, /, *, validate: bool = True) -> NDArray[Any]:
         validate: Whether to validate the content of the read information.
 
     Returns:
-        NumPy array containing the SAM45/CTL information.
+        NumPy structured array containing the SAM45/CTL information.
 
     Raises:
         ValueError: Raised if the read information is invalid,
@@ -49,7 +49,7 @@ def obs(log: PathLike[str] | str, /, *, validate: bool = True) -> NDArray[Any]:
         validate: Whether to validate the content of the read information.
 
     Returns:
-        NumPy array containing the SAM45/OBS information.
+        NumPy structured array containing the SAM45/OBS information.
 
     Raises:
         ValueError: Raised if the read information is invalid,
@@ -77,7 +77,7 @@ def dat(log: PathLike[str] | str, /, *, validate: bool = True) -> NDArray[Any]:
         validate: Whether to validate the content of the read information.
 
     Returns:
-        NumPy array containing the SAM45/DAT information.
+        NumPy structured array containing the SAM45/DAT information.
 
     Raises:
         ValueError: Raised if the read information is invalid,
@@ -105,7 +105,7 @@ def end(log: PathLike[str] | str, /, *, validate: bool = True) -> NDArray[Any]:
         validate: Whether to validate the content of the read information.
 
     Returns:
-        NumPy array containing the SAM45/END information.
+        NumPy structured array containing the SAM45/END information.
 
     Raises:
         ValueError: Raised if the read information is invalid,

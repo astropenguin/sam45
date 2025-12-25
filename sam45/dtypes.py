@@ -20,13 +20,13 @@ def _get_dtype(name: str, /) -> np.dtype:
 
 
 ctl = _get_dtype("ctl")
-"""Data type of the SAM45/CTL information."""
+"""Structured data type of the SAM45/CTL information."""
 
 obs = _get_dtype("obs")
-"""Data type of the SAM45/OBS information."""
+"""Structured data type of the SAM45/OBS information."""
 
 dat = _get_dtype("dat")
-"""Data type of the SAM45/DAT information."""
+"""Structured data type of the SAM45/DAT information."""
 
 end = _get_dtype("end")
-"""Data type of the SAM45/END information."""
+"""Structured data type of the SAM45/END information."""
