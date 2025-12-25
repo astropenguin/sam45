@@ -1,12 +1,17 @@
 [
     {
-        "name": "1.0.0rc2 (latest)",
-        "version": "1.0.0rc2",
+        "name": "1.0.0 (latest)",
+        "version": "1.0.0",
         "url": "https://astropenguin.github.io/sam45/"
+    },
+    {
+        "name": "1.0.0rc2",
+        "version": "1.0.0rc2",
+        "url": "https://astropenguin.github.io/sam45/1.0.0rc2/"
     },
     {
         "name": "1.0.0rc1",
         "version": "1.0.0rc1",
-        "url": "https://astropenguin.github.io/sam45/1.0.0rc1"
+        "url": "https://astropenguin.github.io/sam45/1.0.0rc1/"
     }
 ]

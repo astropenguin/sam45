@@ -3,7 +3,8 @@
 [![Release](https://img.shields.io/pypi/v/sam45?label=Release&color=cornflowerblue&style=flat-square)](https://pypi.org/project/sam45/)
 [![Python](https://img.shields.io/pypi/pyversions/sam45?label=Python&color=cornflowerblue&style=flat-square)](https://pypi.org/project/sam45/)
 [![Downloads](https://img.shields.io/pypi/dm/sam45?label=Downloads&color=cornflowerblue&style=flat-square)](https://pepy.tech/project/sam45)
-[![Tests](https://img.shields.io/github/actions/workflow/status/astropenguin/45m/tests.yaml?label=Tests&style=flat-square)](https://github.com/astropenguin/sam45/actions)
+[![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.18055352-cornflowerblue?style=flat-square)](https://doi.org/10.5281/zenodo.18055352)
+[![Tests](https://img.shields.io/github/actions/workflow/status/astropenguin/sam45/tests.yaml?label=Tests&style=flat-square)](https://github.com/astropenguin/sam45/actions)
 
 NRO/SAM45 log data reader
 

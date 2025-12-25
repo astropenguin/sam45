@@ -13,6 +13,9 @@ authors:
     email: a-taniguchi@mail.kitami-it.ac.jp
     affiliation: Kitami Institute of Technology
     orcid: 'https://orcid.org/0000-0002-9695-6183'
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.18055352
 repository-code: 'https://github.com/astropenguin/sam45'
 url: 'https://astropenguin.github.io/sam45'
 abstract: NRO/SAM45 log data reader
@@ -23,5 +26,5 @@ keywords:
   - radio-astronomy
   - sam45
 license: MIT
-version: 1.0.0rc2
+version: 1.0.0
 date-released: '2025-12-26'
