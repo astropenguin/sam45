@@ -1,0 +1,7 @@
+sam45.read module
+=================
+
+.. automodule:: sam45.read
+   :members:
+   :show-inheritance:
+   :undoc-members:

@@ -1,0 +1,7 @@
+sam45.dtypes module
+===================
+
+.. automodule:: sam45.dtypes
+   :members:
+   :show-inheritance:
+   :undoc-members:
