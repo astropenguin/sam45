@@ -32,8 +32,12 @@ repository = "https://github.com/astropenguin/sam45"
 dev = [
     "black>=25,<26",
     "ipython>=8,<10",
+    "pyright>=1,<2",
 ]
 
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
+
+[tool.pyright]
+typeCheckingMode = "strict"
