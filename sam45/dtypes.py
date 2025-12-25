@@ -8,16 +8,16 @@ from typing import Any
 
 
 # dependencies
-import numpy as np
+from numpy import dtype
 
 
-def _get_dtype(name: str, /) -> np.dtype[Any]:
-    with (files("sam45") / "dtypes.toml").open() as f:
-        text = f.read()
+def _get_dtype(name: str, /) -> dtype[Any]:
+    with (files("sam45") / "dtypes.toml").open() as file:
+        source = file.read()
 
-    consts = loads(text)["consts"]
-    dtype = loads(text.format(**consts))[name]
-    return np.dtype([(item["name"], item["dtype"]) for item in dtype])
+    consts = loads(source)["consts"]
+    fields = loads(source.format(**consts))[name]
+    return dtype([(f["name"], f["dtype"]) for f in fields]).newbyteorder("<")
 
 
 ctl = _get_dtype("ctl")
