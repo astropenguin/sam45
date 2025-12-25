@@ -1,0 +1,558 @@
+[consts]
+arymax = 32
+binmax = 4
+chmax = 4096
+spwmax = 2
+subary = 2
+
+[[ctl]]
+name = "crec_type"
+dtype = "S4"
+
+[[ctl]]
+name = "irec_len"
+dtype = "i4"
+
+[[ctl]]
+name = "cversion"
+dtype = "S8"
+
+[[ctl]]
+name = "clog_name"
+dtype = "S64"
+
+[[ctl]]
+name = "cbe_type"
+dtype = "S8"
+
+[[obs]]
+name = "crec_type"
+dtype = "S4"
+
+[[obs]]
+name = "irec_len"
+dtype = "i4"
+
+[[obs]]
+name = "dant_off"
+dtype = "(2,)f8"
+
+[[obs]]
+name = "dsub_off"
+dtype = "(3,)f8"
+
+[[obs]]
+name = "dsrc_pos"
+dtype = "(2, 3)f8"
+
+[[obs]]
+name = "dstrv"
+dtype = "f8"
+
+[[obs]]
+name = "dmap_pos"
+dtype = "f8"
+
+[[obs]]
+name = "dmult_off"
+dtype = "f8"
+
+[[obs]]
+name = "dbsw_freq"
+dtype = "f8"
+
+[[obs]]
+name = "dsw_freq"
+dtype = "({arymax},)f8"
+
+[[obs]]
+name = "dflif"
+dtype = "({arymax},)f8"
+
+[[obs]]
+name = "dcent_freq"
+dtype = "({arymax},)f8"
+
+[[obs]]
+name = "dtrk_freq"
+dtype = "({arymax},)f8"
+
+[[obs]]
+name = "dbebw"
+dtype = "({arymax},)f8"
+
+[[obs]]
+name = "dfqdat_f0"
+dtype = "({arymax},)f8"
+
+[[obs]]
+name = "dfqdat_fq"
+dtype = "({arymax}, 2)f8"
+
+[[obs]]
+name = "dfqdat_ch"
+dtype = "({arymax}, 2)f8"
+
+[[obs]]
+name = "dbechwid"
+dtype = "({arymax},)f8"
+
+[[obs]]
+name = "dberes"
+dtype = "({arymax},)f8"
+
+[[obs]]
+name = "deffa"
+dtype = "({arymax},)f8"
+
+[[obs]]
+name = "deffb"
+dtype = "({arymax},)f8"
+
+[[obs]]
+name = "deffl"
+dtype = "({arymax},)f8"
+
+[[obs]]
+name = "defss"
+dtype = "({arymax},)f8"
+
+[[obs]]
+name = "dgain"
+dtype = "({arymax},)f8"
+
+[[obs]]
+name = "dhpbw"
+dtype = "({arymax},)f8"
+
+[[obs]]
+name = "dpoldr"
+dtype = "({arymax},)f8"
+
+[[obs]]
+name = "dbin_dwell"
+dtype = "({binmax},)f8"
+
+[[obs]]
+name = "diptim"
+dtype = "f8"
+
+[[obs]]
+name = "reserve8"
+dtype = "(15,)f8"
+
+[[obs]]
+name = "ich_bind"
+dtype = "({arymax},)i4"
+
+[[obs]]
+name = "ich_range"
+dtype = "({arymax}, 2)i4"
+
+[[obs]]
+name = "icalb_int"
+dtype = "i4"
+
+[[obs]]
+name = "ichannel"
+dtype = "({arymax},)i4"
+
+[[obs]]
+name = "iipint"
+dtype = "({arymax},)i4"
+
+[[obs]]
+name = "ipordr"
+dtype = "({arymax},)i4"
+
+[[obs]]
+name = "ichan_avg"
+dtype = "({subary}, {spwmax})i4"
+
+[[obs]]
+name = "istart_chan"
+dtype = "({subary}, {spwmax})i4"
+
+[[obs]]
+name = "iend_chan"
+dtype = "({subary}, {spwmax})i4"
+
+[[obs]]
+name = "drms_value"
+dtype = "f4"
+
+[[obs]]
+name = "on_axis"
+dtype = "(10, 2)f4"
+
+[[obs]]
+name = "irms_judge"
+dtype = "i4"
+
+[[obs]]
+name = "irms_mode"
+dtype = "i4"
+
+[[obs]]
+name = "irms_onnum"
+dtype = "i4"
+
+[[obs]]
+name = "autofeedback_weight"
+dtype = "f4"
+
+[[obs]]
+name = "reserve4"
+dtype = "(64,)i4"
+
+[[obs]]
+name = "imd_obs"
+dtype = "u1"
+
+[[obs]]
+name = "icoord_type"
+dtype = "u1"
+
+[[obs]]
+name = "iscan_coord"
+dtype = "u1"
+
+[[obs]]
+name = "isw_mod"
+dtype = "u1"
+
+[[obs]]
+name = "ivdef"
+dtype = "u1"
+
+[[obs]]
+name = "ivref"
+dtype = "u1"
+
+[[obs]]
+name = "imlt_no"
+dtype = "({arymax},)u1"
+
+[[obs]]
+name = "iary_ifatt"
+dtype = "S{arymax}"
+
+[[obs]]
+name = "iary_refno"
+dtype = "({arymax},)u1"
+
+[[obs]]
+name = "iary_usefg"
+dtype = "({arymax},)u1"
+
+[[obs]]
+name = "ibin_num"
+dtype = "u1"
+
+[[obs]]
+name = "in_spec_window"
+dtype = "({subary},)u1"
+
+[[obs]]
+name = "clog_id"
+dtype = "S20"
+
+[[obs]]
+name = "cst_time"
+dtype = "S16"
+
+[[obs]]
+name = "cobs_file"
+dtype = "S20"
+
+[[obs]]
+name = "cobj_name"
+dtype = "S16"
+
+[[obs]]
+name = "csrc_comment"
+dtype = "S24"
+
+[[obs]]
+name = "cobs_user"
+dtype = "S40"
+
+[[obs]]
+name = "cgroup"
+dtype = "S10"
+
+[[obs]]
+name = "cproject"
+dtype = "S10"
+
+[[obs]]
+name = "ctrk_type"
+dtype = "S8"
+
+[[obs]]
+name = "cepoch"
+dtype = "S8"
+
+[[obs]]
+name = "cscan_coord"
+dtype = "S8"
+
+[[obs]]
+name = "cseq_ptn"
+dtype = "S120"
+
+[[obs]]
+name = "csid_type"
+dtype = "({arymax},)S4"
+
+[[obs]]
+name = "cfe_type"
+dtype = "({arymax},)S10"
+
+[[obs]]
+name = "chorn_typ"
+dtype = "({arymax},)S2"
+
+[[obs]]
+name = "cpol_typ"
+dtype = "({arymax},)S5"
+
+[[obs]]
+name = "csub_array"
+dtype = "S4"
+
+[[obs]]
+name = "cinput_mode"
+dtype = "({subary},)S6"
+
+[[obs]]
+name = "cbut_scale"
+dtype = "({subary},)S64"
+
+[[obs]]
+name = "crequant_rescale"
+dtype = "({subary},)S64"
+
+[[obs]]
+name = "crequant_scale"
+dtype = "({subary},)S64"
+
+[[obs]]
+name = "cmake_hfs_table"
+dtype = "({subary},)S4"
+
+[[obs]]
+name = "cmisc_flags_hfs"
+dtype = "({subary},)S4"
+
+[[obs]]
+name = "cmisc_flags_lfs"
+dtype = "({subary},)S4"
+
+[[obs]]
+name = "cmisc_flags_mult"
+dtype = "({subary},)S7"
+
+[[obs]]
+name = "cfreq_prof_synth"
+dtype = "({subary}, {spwmax})S4"
+
+[[obs]]
+name = "cwin_func_id"
+dtype = "({subary}, {spwmax})S16"
+
+[[obs]]
+name = "crms_array"
+dtype = "S4"
+
+[[obs]]
+name = "i2beam_mode"
+dtype = "u1"
+
+[[obs]]
+name = "imlt_mode"
+dtype = "u1"
+
+[[obs]]
+name = "iary_num"
+dtype = "u1"
+
+[[obs]]
+name = "iotf_mode"
+dtype = "u1"
+
+[[obs]]
+name = "iotf_dumpall"
+dtype = "u1"
+
+[[obs]]
+name = "reserve1"
+dtype = "S508"
+
+[[dat]]
+name = "crec_type"
+dtype = "S4"
+
+[[dat]]
+name = "irec_len"
+dtype = "i4"
+
+[[dat]]
+name = "dant_prog"
+dtype = "(2,)f8"
+
+[[dat]]
+name = "dant_real"
+dtype = "(2,)f8"
+
+[[dat]]
+name = "dant_vel"
+dtype = "f8"
+
+[[dat]]
+name = "dmap_center"
+dtype = "(2, 3)f8"
+
+[[dat]]
+name = "dobs_pos"
+dtype = "(2, 3)f8"
+
+[[dat]]
+name = "dch_center"
+dtype = "(2,)f8"
+
+[[dat]]
+name = "dscan_pos_xy"
+dtype = "(2,)f8"
+
+[[dat]]
+name = "dscan_pos_xy_origin"
+dtype = "(2,)f8"
+
+[[dat]]
+name = "dsun_distance"
+dtype = "f8"
+
+[[dat]]
+name = "dsun_ps_angle"
+dtype = "f8"
+
+[[dat]]
+name = "dint_edmjd"
+dtype = "f8"
+
+[[dat]]
+name = "dint_stmjd"
+dtype = "f8"
+
+[[dat]]
+name = "dtsys"
+dtype = "f8"
+
+[[dat]]
+name = "dweather"
+dtype = "(5,)f8"
+
+[[dat]]
+name = "dcenter_frequency"
+dtype = "f8"
+
+[[dat]]
+name = "reserve8"
+dtype = "(15,)f8"
+
+[[dat]]
+name = "iinteg_time"
+dtype = "i4"
+
+[[dat]]
+name = "iline_no"
+dtype = "i4"
+
+[[dat]]
+name = "iscan_line"
+dtype = "i4"
+
+[[dat]]
+name = "iscan_no"
+dtype = "i4"
+
+[[dat]]
+name = "istart_channel"
+dtype = "i4"
+
+[[dat]]
+name = "inumber_channels"
+dtype = "i4"
+
+[[dat]]
+name = "fwindow_overlap"
+dtype = "f4"
+
+[[dat]]
+name = "reserve4"
+dtype = "(11,)i4"
+
+[[dat]]
+name = "iary_no"
+dtype = "u1"
+
+[[dat]]
+name = "idmy_flag"
+dtype = "u1"
+
+[[dat]]
+name = "cary_name"
+dtype = "S4"
+
+[[dat]]
+name = "cint_edtm"
+dtype = "S16"
+
+[[dat]]
+name = "cint_sttm"
+dtype = "S32"
+
+[[dat]]
+name = "cscan_type"
+dtype = "S6"
+
+[[dat]]
+name = "cscanid"
+dtype = "S20"
+
+[[dat]]
+name = "clog_time"
+dtype = "S16"
+
+[[dat]]
+name = "icdpc_endcode"
+dtype = "S1"
+
+[[dat]]
+name = "iquantization_correction"
+dtype = "u1"
+
+[[dat]]
+name = "cpoln_products"
+dtype = "S6"
+
+[[dat]]
+name = "cwindow_function"
+dtype = "S17"
+
+[[dat]]
+name = "reserve1"
+dtype = "S87"
+
+[[dat]]
+name = "fary_data"
+dtype = "({chmax},)f4"
+
+[[end]]
+name = "crec_type"
+dtype = "S4"
+
+[[end]]
+name = "irec_len"
+dtype = "i4"
