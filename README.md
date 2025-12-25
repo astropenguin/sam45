@@ -1,4 +1,4 @@
-# sam45
+# SAM45
 
 [![Release](https://img.shields.io/pypi/v/sam45?label=Release&color=cornflowerblue&style=flat-square)](https://pypi.org/project/sam45/)
 [![Python](https://img.shields.io/pypi/pyversions/sam45?label=Python&color=cornflowerblue&style=flat-square)](https://pypi.org/project/sam45/)
