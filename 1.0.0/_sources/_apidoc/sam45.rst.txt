@@ -1,0 +1,16 @@
+sam45 package
+=============
+
+.. automodule:: sam45
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 2
+
+   sam45.dtypes
+   sam45.read
