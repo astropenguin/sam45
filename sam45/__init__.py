@@ -1,5 +1,6 @@
-__all__ = ["dtypes"]
+__all__ = ["dtypes", "read"]
 
 
 # dependencies
 from . import dtypes
+from . import read
