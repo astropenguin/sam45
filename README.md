@@ -6,7 +6,7 @@
 [![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.18055352-cornflowerblue?style=flat-square)](https://doi.org/10.5281/zenodo.18055352)
 [![Tests](https://img.shields.io/github/actions/workflow/status/astropenguin/sam45/tests.yaml?label=Tests&style=flat-square)](https://github.com/astropenguin/sam45/actions)
 
-NRO/SAM45 log data reader
+NRO/SAM45 log reader and parser
 
 ## Installation
 
@@ -15,6 +15,8 @@ pip install sam45
 ```
 
 ## Usage
+
+### SAM45 log reader
 
 The following functions will read a SAM45 log to extract each information as [a NumPy structured array](https://numpy.org/doc/stable/user/basics.rec.html).
 
@@ -27,8 +29,6 @@ data_dat = sam45.read.dat("/path/to/log")
 data_end = sam45.read.end("/path/to/log")
 ```
 
-## Data types
-
 The data type of each information is defined as [a NumPy structured data type](https://numpy.org/doc/stable/reference/arrays.dtypes.html).
 It complies with the definition as of December 5, 2025.
 
@@ -40,3 +40,5 @@ dtype_obs = sam45.dtypes.obs
 dtype_dat = sam45.dtypes.dat
 dtype_end = sam45.dtypes.end
 ```
+
+### SAM45 log parser
