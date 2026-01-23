@@ -235,7 +235,7 @@ dtype = "({arymax},)u1"
 
 [[obs]]
 name = "iary_ifatt"
-dtype = "S{arymax}"
+dtype = "({arymax},)u1"
 
 [[obs]]
 name = "iary_refno"
