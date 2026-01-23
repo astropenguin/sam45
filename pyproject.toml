@@ -1,6 +1,6 @@
 [project]
 name = "sam45"
-version = "1.0.0"
+version = "1.0.1"
 description = "NRO/SAM45 log data reader"
 readme = "README.md"
 keywords = [
