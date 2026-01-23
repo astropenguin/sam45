@@ -18,7 +18,7 @@ identifiers:
     value: 10.5281/zenodo.18055352
 repository-code: 'https://github.com/astropenguin/sam45'
 url: 'https://astropenguin.github.io/sam45'
-abstract: NRO/SAM45 log data reader
+abstract: NRO/SAM45 log reader
 keywords:
   - astronomy
   - nro
@@ -26,5 +26,5 @@ keywords:
   - radio-astronomy
   - sam45
 license: MIT
-version: 1.0.0
-date-released: '2025-12-26'
+version: 1.0.1
+date-released: '2026-01-23'

@@ -6,7 +6,7 @@
 [![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.18055352-cornflowerblue?style=flat-square)](https://doi.org/10.5281/zenodo.18055352)
 [![Tests](https://img.shields.io/github/actions/workflow/status/astropenguin/sam45/tests.yaml?label=Tests&style=flat-square)](https://github.com/astropenguin/sam45/actions)
 
-NRO/SAM45 log data reader
+NRO/SAM45 log reader
 
 ## Installation
 
